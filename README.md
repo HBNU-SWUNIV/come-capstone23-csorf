@@ -1,9 +1,8 @@
-# 한밭대학교 OOOO학과 ㅁㅁㅁㅁ팀
+# 한밭대학교 컴퓨터공학과 재벌집코인아들(Coin Son Of Rich Family)팀
 
 **팀 구성**
 - 20XX0001 김이박 
 - 20XX0002 이박김
-- 20XX0003 박김이
 
 ## <u>Teamate</u> Project Background
 - ### 필요성
