@@ -1,8 +1,8 @@
 # 한밭대학교 컴퓨터공학과 재벌집코인아들(Coin Son Of Rich Family)팀
 
 **팀 구성**
-- 20XX0001 김이박 
-- 20XX0002 이박김
+- 20181590 김희섭 
+- 20181581 강현욱
 
 ## <u>Teamate</u> Project Background
 - ### 필요성
