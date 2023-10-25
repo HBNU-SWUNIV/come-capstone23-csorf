@@ -30,6 +30,8 @@
   
 ## System Design
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"><img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white"><img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=Bitcoin&logoColor=white">
+
+![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/ce6ba0f0-1bc6-454b-82b7-31ba53ac7f2f)
   - ### System Requirements
     - 정확도(일별 상승/하락 추세)
     - 수익률(최소 손실)
