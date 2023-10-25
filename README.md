@@ -19,7 +19,7 @@
 ## System Design
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"><img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white"><img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=Bitcoin&logoColor=white">
 
-![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/ce6ba0f0-1bc6-454b-82b7-31ba53ac7f2f)
+![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/7fc3e8c9-04d3-47da-959e-3ebe2231c620)
   - ### System Requirements
     - 정확도(일별 상승/하락 추세)
     - 수익률(최소 손실)
@@ -107,25 +107,35 @@
   
   
 ## Conclusion
-  - ### 1. 추세
+  - ### 1.  추세
     
     ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/b1aeeba2-062a-4b43-9238-2855949a36ed)
-  - ### 2. 시각화
+  - ### 2.  시각화
     
     ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/753912d2-bd7e-4d10-9004-676685c963a2)
-  - ### 3. 정확도
-    - 최대 약 55 % (모든 지표들), 최소 약 45 %(추세 및 시장이며 양의 상관관계를 가지는 지표들
+  - ### 3.  정확도
+    - 최대 약 55 % (모든 지표들(ALL)), 최소 약 45 %(추세 및 시장이며 양의 상관관계를 가지는 지표들(T&M+))
     
     ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/d0537b9f-aac2-427b-bc15-7d611c8b2906)
-  - ### 4. 수익률
-    - 8월 부터 10월 까지 100일 기준으로는 최대 약 22.68 %, 최소 4.418 % 이윤 (해당 기간 종가의 상승 폭은 약 15 %)
+  - ### 4.  수익률
+    - 8월 부터 10월 까지 100일 기준으로는 최대 약 22.68 %(산출 시 종가만을 사용하는 지표들(OC)), 최소 4.418 %(추세 및 시장이며 양의 상관관계를 가지는 지표들(T&M+)) 이윤
+    - 해당 기간 종가의 상승 폭은 약 15 %
    
     ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/9819ea90-5017-47fe-8593-a7053fba3024)
-    - 급 하락기간 20일(8/8 ~ 8/28) 기준으로는 최소 - 0.018 %, 최대 - 7.201 % 손실 (해당 기간 종가의 하락 폭은 약 11 %)
+    - 급 하락기간 20일(8/8 ~ 8/28) 기준으로는 최소 - 0.018 %(추세 및 시장 지표들(T&M)), 최대 - 7.201 % 손실(탄력성 지표들(E))
+    - 해당 기간 종가의 하락 폭은 약 11 %
     
     ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/bf65f720-fdc5-48f7-a4d9-71960e61b113)
-  - ### 5. 최종결론
-    - ...
+  - ### 5.  최종결론
+    - 학습 데이터 준비에 있어 upbit에서 API를 받아올 경우 2019년 9월 25일부터 받아올 수 있어 비교적 데이터량이 적다. 따라서 다음에 같은 비트코인 관련해 학습을 준비할 때는 2013년부터 데이터를 받아올 수 있는 빗썸, 또는 해외 거래소에서 가져오는 것을 고려해볼 수 있다.
+      
+    - 각 지표별 해석방식을 학습시키지 못한 것이 아쉽다. 예를 들어 RSI와 같은 지표는 모든 값이 의미있는 것이 아닌 특정 값 이상/이하(30, 70)에서 의미가 있는 지표이다. 지표값을 그대로 산출해 쓰는 것이 아닌 산출 후 어느 정도 해석적 수치로 조정하여 학습데이터에 사용하는 것을 고려해 볼 수 있다.
+      
+    - 시계열 데이터의 회귀 문제이기에 GRU를 사용하였는데, 추세를 예측한다고 하면 target 값을 상승(1), 하락(0)으로 간단하게 둘 수 있고 이에 따라 회귀가 아닌 분류 방식으로 모델을 구성하는 방식도 고려해 볼 수 있다고 보여진다.
+      
+    - 비트코인의 가격은 단순 추세, 탄력성, 거래량, 시장 등의 수치적인 요소 외에 인터넷에서 떠도는 여러 기사들, 가십 등과 투자자 참여자들의 심리적 요인까지 작용하여 변동이 이루어지고 그 변동의 폭이 크다. 예를 들어 지난 10월 16일 '블랙록의 비트코인 현물 ETF 승인'이라는 기사가 뜨고 30분만에 약 7 % 급증, 그러나 가짜뉴스라고 밝혀지자 원래가격으로 서서히 복귀했다. 이처럼 기사 중에서도 진위여부에 상관없이 가격의 변동이 크게 일어난다. 따라서 지표들뿐 아니라 웹크롤링을 통해 비트코인에 영향을 줄 수 있는 키워드들과 그래프에 따라 투자자들의 심리적 선택(매수/매도)을 데이터화하여 학습시킨다면 모델의 성능을 높일 수 있을 것 같다.
+   
+    - 수익률 산출에 있어 앞선 해석방식을 학습시키고 투자 방식도 이에 따라 구체화 한다면 좀 더 좋은 수익률을 올릴 수 있을 것 같다.
   
 ## Project Outcome
 - ### 20XX 년 OO학술대회 
