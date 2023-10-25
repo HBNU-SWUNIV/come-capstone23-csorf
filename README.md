@@ -47,8 +47,8 @@
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/18d116d4-d87e-40ce-b1bb-38d06c4e6f14)
    
   - ### 2. 데이터 분석
-    #### 1)  특징 분석
-    - 지표 별 특징을 파악, 각 지표가 의미하는 바를 정리
+    #### 1)  지표 선정 및 특징 분석
+    - 비트코인 투자에 많이이 사용되는 지표 별 특징을 파악, 각 지표가 의미하는 바를 정리
       - 추세 : 이동평균(MA5, MA20), RSI, MACD(MACD, Signal, Hist), ADX, ROC, CCI, DMI(+/-)
       - 탄력성 : 볼린저 밴드(Upper, Middle, Lower), 스토캐스틱(SlowK, SlowD), ATR
       - 거래량 : OBV
