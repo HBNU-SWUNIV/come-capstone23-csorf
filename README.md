@@ -74,8 +74,8 @@
     - 모델링이 완료되면 앞선 데이터 분석의 결과에 따라 여러 지표들의 조합으로 학습, 가장 높은 성능의 모델을 추려 모델 저장, 성능은 MSE 및 RSE, 그리고 y_test 와 y_predict 시각화 결과에 따른 상위 9개 모델 저장
       
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/aab3cfeb-c552-43d3-8a6a-88c8362c251c)
-      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/3150bc34-0ab0-4108-b593-8ad9d63313c0)
-      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/bffb8e2a-aebd-4ef9-9641-2d177102b6e8)
+      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/7ac6d661-ac81-4332-93a3-52aed17c51af)
+      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/f679d707-c677-449a-8d7f-7cd8e43d12af)
    
   - ### 4. 모델 검증
     #### 1)  추세
