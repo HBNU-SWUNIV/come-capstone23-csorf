@@ -56,13 +56,7 @@
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/9e43e5e2-f4f7-465a-b849-0633f4ffef31)
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/a4338487-866a-4652-9725-e5ce4d956ded)
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/1a2baec0-dcdc-408b-8a66-51037d40fb70)
-    #### 4)  회귀분석
-    - 종가와 지표의 관계성을 수학적으로 추정, 각 지표들이 종가에 대해 어떤 경향성을 띄는지 파악
-      
-      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/8e7a98bb-c5b1-42ea-9ab4-b206e8065689)
-      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/f76dec1e-58bd-406a-80bf-326e5858d582)
-      ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/0211ba34-ee99-42c3-b307-b9371791a906)
-    #### 5)  다중선형회귀모델
+    #### 4)  회항회귀모델
     - 직접 다중선형 모델로 예측을 하여 지표들이 종가를 예측할 수 있는지 가능성을 파악 (Linear, Lasso, Ridge)
       
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/594eb53a-288e-48b7-a138-c2bac7737400)
