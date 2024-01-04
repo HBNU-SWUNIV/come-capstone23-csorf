@@ -56,7 +56,7 @@
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/9e43e5e2-f4f7-465a-b849-0633f4ffef31)
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/a4338487-866a-4652-9725-e5ce4d956ded)
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/1a2baec0-dcdc-408b-8a66-51037d40fb70)
-    #### 4)  다항항회귀모델
+    #### 4)  다항회귀모델
     - 직접 다중선형 모델로 예측을 하여 지표들이 종가를 예측할 수 있는지 가능성을 파악 (Linear, Lasso, Ridge)
       
       ![image](https://github.com/HBNU-SWUNIV/come-capstone23-csorf/assets/147990515/594eb53a-288e-48b7-a138-c2bac7737400)
